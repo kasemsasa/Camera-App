@@ -1,4 +1,5 @@
 {
+    "id": "02b99f7d-3705-42c3-8178-1442516b4f33",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -54,6 +55,60 @@
         "tabNavigationOptions": {}
     },
     "children": [
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Voice Confirmation Toggle",
+                "TextColor": "#FFFFFF",
+                "FontSize": 13,
+                "Font": "",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(74, 74, 74, 1)",
+                "Height": 68,
+                "Width": 126,
+                "Visible": true,
+                "X": 248,
+                "Y": 395,
+                "RelativeX": 248,
+                "RelativeY": 395,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "73.33332926432291%",
+                    "top": "56.35151784459333%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "02b99f7d-3705-42c3-8178-1442516b4f33",
+                "position": "absolute",
+                "edgeOffsets": 395.99999999999994
+            },
+            "children": [],
+            "id": "c6551e7c-b6bd-4717-a9df-19d1d2643439",
+            "thunkableVersion": 443,
+            "name": "conf_btn"
+        },
         {
             "type": "Image",
             "translatedName": "Image",
@@ -1038,7 +1093,6 @@
             "name": "Image1"
         }
     ],
-    "id": "02b99f7d-3705-42c3-8178-1442516b4f33",
     "thunkableVersion": 443,
     "name": "Photo Screen"
 }
